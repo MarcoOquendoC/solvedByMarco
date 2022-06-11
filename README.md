@@ -7,10 +7,7 @@ These are almost all challenges I have solved at this date 2022/june/11.
 
 I like to help and share.
 
-# I love feedback please write me.
-
-
-Contact me 
+# I love feedback please contact me.
 
 WhatsApp: +593 96 396 0296
 
