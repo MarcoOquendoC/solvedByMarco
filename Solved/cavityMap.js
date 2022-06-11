@@ -13,4 +13,4 @@ function cavityMap(grid) {
     }//end i loop
     grid.forEach((value,index)=> grid.splice(index,1,value.join('')))
     return grid
-  }
+}
