@@ -1,5 +1,5 @@
 # solvedByMarco
-**This idea came the first day I started my journey in the Level-Up experience of Microverse the first of april 2022.
+**This idea came the first day I started my journey in the Level-Up experience of Microverse the first of april 2022.**
 
 I started this repository in 2022/june/05
 
