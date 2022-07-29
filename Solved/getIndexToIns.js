@@ -1,3 +1,13 @@
+/////////////////// New easier solution
+function getIndexToIns(arr, num) {
+  let arr1= arr.sort((a,b) => a-b);
+  let x= arr1.findIndex((element) => element >= num);
+  return x==-1? arr.length:x;
+}
+
+
+
+//////////////////Previous solution
 function getIndexToIns(arr, num) {
 //Where do I Belong
 //https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong
