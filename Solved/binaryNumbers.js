@@ -1,5 +1,5 @@
 function main() {
-    //https://www.hackerrank.com/challenges/30-binary-numbers/problem
+    // https://www.hackerrank.com/challenges/30-binary-numbers/problem
     const n = parseInt(readLine().trim(), 10);
     let N=n.toString(2)
     let sum=0, result=0
