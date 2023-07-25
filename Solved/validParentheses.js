@@ -1,4 +1,5 @@
 // https://leetcode.com/problems/valid-parentheses/description/
+// También se puede hacer con switch
 
 var isValid = function(s) {
   const closing = (str) => {
