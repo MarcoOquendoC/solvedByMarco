@@ -14,7 +14,7 @@ function convertToRoman(num) {
     u0: '',
   };
 
-  // tens 
+  // tens
   const ten = {
     u1: 'X',
     u2: 'XX',
@@ -28,7 +28,7 @@ function convertToRoman(num) {
     u0: '',
   };
 
-  // hundreds 
+  // hundreds
   const hun = {
     u1: 'C',
     u2: 'CC',
@@ -55,9 +55,9 @@ function convertToRoman(num) {
   const arrNum = [...num.toString()];
   const loops = arrNum.length;
 
-  for(let i = 0; i < loops; i += 1) {
+  for (let i = 0; i < loops; i += 1) {
     const digit = arrNum.pop();
-    result = steps[i][`u${digit}`] + result
+    result = steps[i][`u${digit}`] + result;
   }
 
   return result;
