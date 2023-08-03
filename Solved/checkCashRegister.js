@@ -9,55 +9,55 @@ function checkCashRegister(price, cash, cid) {
     FIVE: 5,
     TEN: 10,
     TWENTY: 20,
-    "ONE HUNDRED": 100
+    'ONE HUNDRED': 100,
   };
   let change = cash - price;
-  let result = {change: []};
+  const result = { change: [] };
 
-  let totalCid = cid.reduce((a, e) => a + e[1], 0);
-  if(totalCid === cash - price) {
+  const totalCid = cid.reduce((a, e) => a + e[1], 0);
+  if (totalCid === cash - price) {
     result.status = 'CLOSED';
     result.change = cid;
     return result;
   }
-    
+
   cid.reverse();
 
   const valueFromCoin = (amount, coinValue, coinTotalAmount) => {
-    let value = Math.floor(amount / coinValue) * coinValue;
+    const value = Math.floor(amount / coinValue) * coinValue;
     return value > coinTotalAmount ? coinTotalAmount : value;
-  }
+  };
 
-  cid.forEach(e => {
+  cid.forEach((e) => {
     const vCoin = valueFromCoin(change, v[e[0]], e[1]);
     result.change.push([e[0], vCoin]);
     change -= vCoin;
   });
 
-  let totalChange = result.change.reduce((a, e) => a + e[1], 0);
-  if(totalChange < change) {
+  const totalChange = result.change.reduce((a, e) => a + e[1], 0);
+  if (totalChange < change) {
     result.status = 'INSUFFICIENT_FUNDS';
     result.change = [];
     return result;
   }
 
   // correct math computational error
-  const oneCentError = Math.round(change*100)*0.01;
-  result.change[result.change.length-1][1] += oneCentError;
+  const oneCentError = Math.round(change * 100) * 0.01;
+  result.change[result.change.length - 1][1] += oneCentError;
 
   result.status = 'OPEN';
-  result.change = result.change.filter(e => e[1]);
+  result.change = result.change.filter((e) => e[1]);
   return result;
 }
 
 console.log(checkCashRegister(19.5, 20, [
-  ["PENNY", 0.5], 
-  ["NICKEL", 0], 
-  ["DIME", 0], 
-  ["QUARTER", 0], 
-  ["ONE", 0], 
-  ["FIVE", 0], 
-  ["TEN", 0], 
-  ["TWENTY", 0], 
-  ["ONE HUNDRED", 0]
+  ['PENNY', 0.5],
+  ['NICKEL', 0],
+  ['DIME', 0],
+  ['QUARTER', 0],
+  ['ONE', 0],
+  ['FIVE', 0],
+  ['TEN', 0],
+  ['TWENTY', 0],
+  ['ONE HUNDRED', 0],
 ]));
