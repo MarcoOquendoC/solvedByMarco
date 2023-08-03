@@ -3,7 +3,7 @@
 
 I started this repository in 2022/june/05
 
-These are almost all challenges I have solved at this date 2022/june/11.
+These are some challenges I have solved at this date 2023/August/03.
 
 I like to help and share.
 
