@@ -1,11 +1,11 @@
-var deleteDuplicates = function(head) {
+const deleteDuplicates = function (head) {
   let current = head;
-  while(current) {
-    if(current.next && current.val === current.next.val) {
-      current.next = current.next.next
-      continue
+  while (current) {
+    if (current.next && current.val === current.next.val) {
+      current.next = current.next.next;
+      continue;
     }
-    current = current.next
+    current = current.next;
   }
-  return head
+  return head;
 };
