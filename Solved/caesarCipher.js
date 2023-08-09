@@ -2,9 +2,9 @@ function caesarCipher(s, k) {
     //https://www.hackerrank.com/challenges/caesar-cipher-1/problem
     let arr=[]
     let alphabetLength=26
-    k-= Math.floor(k/alphabetLength)*alphabetLength //if k>26
-    //these are ascii codes
-    let aCode=97, zCode=122, ACode=65, ZCode=90, hiphenCode=45
+    k-= Math.floor(k / alphabetLength) * alphabetLength // if k>26
+    // these are ascii codes
+    let aCode = 97, zCode = 122, ACode = 65, ZCode = 90, hiphenCode = 45
     for(let i=0;i<s.length;i++){
         let ascii = s.charCodeAt(i)
         if(aCode<=ascii && ascii<=zCode-k || ACode<=ascii && ascii<=ZCode-k){
