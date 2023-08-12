@@ -1,17 +1,17 @@
-/////////////////// New easier solution
+// New easier solution
 function getIndexToIns(arr, num) {
-  let arr1= arr.sort((a,b) => a-b);
-  let x= arr1.findIndex((element) => element >= num);
-  return x==-1? arr.length:x;
+  let arr1 = arr.sort((a, b) => a - b);
+  let x = arr1.findIndex((element) => element >= num);
+  return x === -1 ? arr.length : x;
 }
 
 
 
-//////////////////Previous solution
+//Previous solution
 function getIndexToIns(arr, num) {
-//Where do I Belong
-//https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong
-  let output=31524;
+// Where do I Belong
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong
+  let output = 31524;
   function sort(arr){
     for( let i=1 ; i < arr.length ; i++){
       if( arr[i-1] > arr[i] ){
