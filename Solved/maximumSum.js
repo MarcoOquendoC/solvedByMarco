@@ -1,6 +1,6 @@
 function maximumSum(a, m) {
-//NOT SOLVED BY ME
-//https://www.hackerrank.com/challenges/maximum-subarray-sum/problem
+// NOT SOLVED BY ME
+// https://www.hackerrank.com/challenges/maximum-subarray-sum/problem
 var sums = [[-1, 0]];
     var maxSum = 0;
     for (var i=0; i<a.length; i++) {
