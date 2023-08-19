@@ -1,5 +1,5 @@
-function missingNumbers(arr,brr){
-  //https://www.hackerrank.com/challenges/missing-numbers/problem
+function missingNumbers(arr,brr) {
+  // https://www.hackerrank.com/challenges/missing-numbers/problem
   let hash = {}
   for(let i = 0 ; i< brr.length ; i++){
     let key = brr[i]
