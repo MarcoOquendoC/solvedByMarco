@@ -1,5 +1,5 @@
 function bonAppetit(bill,k, b) {
-    //https://www.hackerrank.com/challenges/bon-appetit/problem
+    // https://www.hackerrank.com/challenges/bon-appetit/problem
     let sum=0
     for(let i=0; i<bill.length; i++){
         sum+=bill[i]
