@@ -1,7 +1,7 @@
-function bonAppetit(bill,k, b) {
+function bonAppetit(bill, k, b) {
     // https://www.hackerrank.com/challenges/bon-appetit/problem
     let sum = 0;
-    for(let i=0; i<bill.length; i++){
+    for(let i=0; i < bill.length; i += 1) {
         sum+=bill[i]
     }
     sum-=bill[k]
