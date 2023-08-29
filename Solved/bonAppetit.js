@@ -4,19 +4,19 @@ function bonAppetit(bill, k, b) {
     for(let i = 0; i < bill.length; i += 1) {
         sum += bill[i];
     }
-    sum-=bill[k]
-    if(sum/2==b){
-        console.log('Bon Appetit')
-    }else{
-        console.log(b-sum/2)
+    sum -= bill[k];
+    if(sum / 2 === b) {
+        console.log('Bon Appetit');
+    } else {
+        console.log(b-sum/2);
     }
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
 //previous Solution
 function bonAppetit(bill,k, b) {
-  //https://www.hackerrank.com/challenges/bon-appetit/problem
-  let totalShared=0
+  // https://www.hackerrank.com/challenges/bon-appetit/problem
+  let totalShared = 0;
   let x=bill.length
   let i=0
   while(i<x){
