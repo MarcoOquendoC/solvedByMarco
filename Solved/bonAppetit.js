@@ -13,17 +13,17 @@ function bonAppetit(bill, k, b) {
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////
-//previous Solution
-function bonAppetit(bill,k, b) {
+// previous Solution
+function bonAppetit(bill, k, b) {
   // https://www.hackerrank.com/challenges/bon-appetit/problem
   let totalShared = 0;
-  let x=bill.length
-  let i=0
-  while(i<x){
-    if(i!=k){
-        totalShared += bill[0]
-        bill.shift()
-        i++
+  let x = bill.length;
+  let i = 0;
+  while(i < x) {
+    if(i != k) {
+        totalShared += bill[0];
+        bill.shift();
+        i += 1;
     } else {
         bill.shift()
         i++
