@@ -25,15 +25,15 @@ function bonAppetit(bill, k, b) {
         bill.shift();
         i += 1;
     } else {
-        bill.shift()
-        i++
-    }//end else
-  }//end while
+        bill.shift();
+        i += 1;
+    }// end else
+  }// end while
   if(totalShared/2 === b){
-    console.log("Bon Appetit")
+    console.log("Bon Appetit");
   } else {
-    console.log((b - totalShared/2))
-  }//end else
-  //console.log(bonAppetit([3,10,2,9],1,12))
+    console.log((b - totalShared/2));
+  }// end else
+  // console.log(bonAppetit([3,10,2,9],1,12));
   }
 }
