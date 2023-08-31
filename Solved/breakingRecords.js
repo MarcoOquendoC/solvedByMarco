@@ -1,10 +1,10 @@
 function breakingRecords(scores) {
-  //https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
-  let highest=scores[0]
-  let lowest=scores[0]
-  let Lcount=0
-  let Hcount=0
-  let i=1
+  // https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+  let highest = scores[0];
+  let lowest = scores[0];
+  let Lcount = 0;
+  let Hcount = 0;
+  let i = 1;
   while(i<scores.length){
   if(lowest<=scores[i] && scores[i]<=highest){
   i++
