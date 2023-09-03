@@ -20,6 +20,6 @@ function person(initialAge){
       };
    this.yearPasses = function(){
           // Increment the age of the person in here
-          age++;
+          age += 1;
    };
 }
