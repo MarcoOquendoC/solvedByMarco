@@ -1,4 +1,4 @@
-function person(initialAge){
+function person(initialAge) {
   // https://www.hackerrank.com/challenges/30-class-vs-instance/problem?isFullScreen=true
     // Add some more code to run some checks on initialAge
     let age = initialAge;
@@ -18,7 +18,7 @@ function person(initialAge){
            /*adult?*/'You are old.'
            )
       };
-   this.yearPasses = function(){
+   this.yearPasses = function() {
           // Increment the age of the person in here
           age += 1;
    };
