@@ -1,8 +1,8 @@
 function plusMinus(arr) {
   // https://www.hackerrank.com/challenges/plus-minus/problem
-    let x = 0; //less than zero
-    let y=0 //equal zero
-    let z=0 //more than zero
+    let x = 0; // less than zero
+    let y = 0; // equal zero
+    let z=0 // more than zero
     let w = arr.length;
 
     let i = 0;
