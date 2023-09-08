@@ -2,11 +2,11 @@ function plusMinus(arr) {
   // https://www.hackerrank.com/challenges/plus-minus/problem
     let x = 0; // less than zero
     let y = 0; // equal zero
-    let z=0 // more than zero
+    let z = 0; // more than zero
     let w = arr.length;
 
     let i = 0;
-    while(i<arr.length){
+    while(i < arr.length){
     if(arr[i]<0){x++}
     else if(arr[i]==0){y++}
     else if(arr[i]>0){z++}
