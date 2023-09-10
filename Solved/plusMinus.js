@@ -7,10 +7,10 @@ function plusMinus(arr) {
 
     let i = 0;
     while(i < arr.length){
-    if(arr[i] < 0) x += 1;
-    else if(arr[i] === 0) y++;
-    else if(arr[i] > 0) z++;
-    i++;
+      if(arr[i] < 0) x += 1;
+      else if(arr[i] === 0) y++;
+      else if(arr[i] > 0) z++;
+      i++;
     }
     console.log((z/arr.length).toFixed(6))
     console.log((x/arr.length).toFixed(6))
