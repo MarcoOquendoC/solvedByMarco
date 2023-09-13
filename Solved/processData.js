@@ -1,6 +1,6 @@
 function processData(input) {
-    //https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
-    let arr = input.split('\n').map(e=> e.split(' '))
+    // https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
+    let arr = input.split('\n').map(e=> e.split(' '));
     const N = +arr[0]
     let dir = {}
     let i=1
