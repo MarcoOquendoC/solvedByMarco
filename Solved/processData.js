@@ -7,7 +7,7 @@ function processData(input) {
     while(i <= N){
         let [name, number]=arr[i]
         dir[name]=number
-        i++
+        i++;
     }
     while(i<arr.length){
         const [name,] = arr[i]
