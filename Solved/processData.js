@@ -6,7 +6,7 @@ function processData(input) {
     let i = 1;
     while(i <= N){
         let [name, number]=arr[i]
-        dir[name]=number
+        dir[name] = number;
         i++;
     }
     while(i<arr.length){
