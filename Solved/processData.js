@@ -9,7 +9,7 @@ function processData(input) {
         dir[name] = number;
         i++;
     }
-    while(i<arr.length){
+    while(i < arr.length) {
         const [name,] = arr[i];
         console.log(dir[name]? name+'='+dir[name]:'Not found');
         i++;
