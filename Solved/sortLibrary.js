@@ -1,5 +1,5 @@
 function sort(library) {
-  var library = [
+  let library = [
     {
         author: 'Bill Gates',
         title: 'The Road Ahead',
