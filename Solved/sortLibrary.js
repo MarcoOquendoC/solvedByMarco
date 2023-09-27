@@ -16,5 +16,13 @@ function sort(library) {
         libraryID: 3245
     }
   ]
-  console.log(library.sort((a,b)=>a.title>b.title?1:b.title>a.title?-1:0))
+  console.log(
+    library.sort(
+      (a, b) => a.title > b.title ?
+        1
+        : b.title > a.title ?
+        -1
+        : 0
+    )
+  )
 }
