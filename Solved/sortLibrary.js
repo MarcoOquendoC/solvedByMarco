@@ -23,6 +23,6 @@ function sort(library) {
         : b.title > a.title ?
         -1
         : 0
-    )
+    );
   )
 }
