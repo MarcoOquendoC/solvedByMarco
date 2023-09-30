@@ -25,7 +25,7 @@ function squareWave() {
     
     function flag(number){
       let num = number.toString().slice(-1) //last digit
-      if(num<5){return 0}else{return 1}// 0...4=>0 ; 5...9=>1 
+      if(num < 5){return 0}else{return 1}// 0...4=>0 ; 5...9=>1 
     }//end flag function
   }//end squareWave function
   /////////////////////////////////////////////////////////////////////////////////////
