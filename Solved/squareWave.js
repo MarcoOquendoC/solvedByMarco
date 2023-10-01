@@ -15,27 +15,27 @@ function squareWave() {
   Output:
   [0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1]
   */
-  
-  let input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
-  /////////////////////////////////////////////////////////////////////////////////////
-  function squareWave(arr){
+
+  const input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
+  /// //////////////////////////////////////////////////////////////////////////////////
+  function squareWave(arr) {
   // Answer here
-    arr.forEach((element, index, array) => array.splice(index,1,flag(element)))
-    return arr
-    
-    function flag(number){
-      let num = number.toString().slice(-1) //last digit
-      if(num < 5){return 0}else{return 1}// 0...4=>0 ; 5...9=>1 
-    }//end flag function
-  }//end squareWave function
-  /////////////////////////////////////////////////////////////////////////////////////
+    arr.forEach((element, index, array) => array.splice(index, 1, flag(element)));
+    return arr;
+
+    function flag(number) {
+      const num = number.toString().slice(-1); // last digit
+      if (num < 5) { return 0; } return 1;// 0...4=>0 ; 5...9=>1
+    }// end flag function
+  }// end squareWave function
+  /// //////////////////////////////////////////////////////////////////////////////////
   // Test cases. Don't change this code!
   const out1 = JSON.stringify(squareWave(input));
-  const out2 = JSON.stringify([0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1])
-  if(out1 == out2){
-  console.log("SUCCESS!");
+  const out2 = JSON.stringify([0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1]);
+  if (out1 == out2) {
+    console.log('SUCCESS!');
   } else {
-  console.log("Whoops, try again!")
+    console.log('Whoops, try again!');
   }
-  //OscarMier()//squareWave(arr)
-  }/*OscarMier*/
+  // OscarMier()//squareWave(arr)
+}/* OscarMier */
