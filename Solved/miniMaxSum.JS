@@ -4,7 +4,7 @@ function miniMaxSum(arr) {
     let w = arr.splice(x,1);
     let sum1 = arr.reduce((acc,val) => acc + val);
     arr.unshift(...w);
-    let y=arr.findIndex(val1 => val1 === (Math.min(...arr)));
+    let y = arr.findIndex(val1 => val1 === (Math.min(...arr)));
     arr.splice(y,1);
     let sum2 = arr.reduce((acc,val) => acc + val);
     console.log(sum1,sum2);
