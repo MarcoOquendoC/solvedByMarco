@@ -8,3 +8,5 @@ function viralAdvertising(n) {
   }
   return accum;
 }
+
+viralAdvertising(2);
