@@ -1,5 +1,5 @@
 function maximumSum(a, m) {
-// NOT SOLVED BY ME
+// NOT SOLVED BY ME XD
 // https://www.hackerrank.com/challenges/maximum-subarray-sum/problem
   const sums = [[-1, 0]];
   let maxSum = 0;
