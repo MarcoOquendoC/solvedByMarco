@@ -10,3 +10,4 @@ function main() {
   }
   console.log(result);
 }
+console.log('smile');
