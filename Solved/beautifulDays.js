@@ -15,3 +15,4 @@ function beautifulDays(i, j, k) {
   return result;
   }
 }
+console.log('smile');
