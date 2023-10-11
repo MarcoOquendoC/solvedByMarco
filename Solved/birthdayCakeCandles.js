@@ -17,3 +17,4 @@ function birthdayCakeCandles(candles) {
  console.log(count);
  // birthdayCakeCandles([3,2,3,1,2,3,3,2,1])
 }
+console.log('smile');
