@@ -36,3 +36,4 @@ function rot13(str) {
   let ascii = String.fromCharCode(str.charCodeAt(0)-13)
   return strArr.join('');
 }
+console.log('smile');
