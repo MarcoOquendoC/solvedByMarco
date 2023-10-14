@@ -23,3 +23,4 @@ function breakingRecords(scores) {
   // breakingRecords([3,2,5,4,6]);
   }
 }
+console.log('smile');
