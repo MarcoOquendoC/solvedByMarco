@@ -5,3 +5,4 @@ function catAndMouse(x, y, z) {
     : Math.abs(x - z) > Math.abs(y - z) ? 'Cat B'
       : 'Mouse C';
 }
+console.log('smile');
