@@ -14,3 +14,4 @@ function cavityMap(grid) {
   grid.forEach((value, index) => grid.splice(index, 1, value.join('')));
   return grid;
 }
+console.log('smile');
