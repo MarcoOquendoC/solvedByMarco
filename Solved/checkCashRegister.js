@@ -61,3 +61,4 @@ console.log(checkCashRegister(19.5, 20, [
   ['TWENTY', 0],
   ['ONE HUNDRED', 0],
 ]));
+console.log('smile');
