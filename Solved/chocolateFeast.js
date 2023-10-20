@@ -10,3 +10,4 @@ function chocolateFeast(n = 15, c = 3, m = 2) {
   }
   return result;
 }
+console.log('smile');
