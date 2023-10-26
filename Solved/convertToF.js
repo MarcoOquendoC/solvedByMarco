@@ -7,3 +7,4 @@ convertToF(celsius) {
   // C = 5/9 * (F - 32)
   // console.log(convertToF(-40))
 }
+console.log('smile');
