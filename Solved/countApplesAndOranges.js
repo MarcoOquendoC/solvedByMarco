@@ -11,3 +11,4 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
   console.log(accumOranges);
   // countApplesAndOranges(3,7,2,8,[1,1],[-1,-1])
 }
+console.log('smile');
