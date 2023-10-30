@@ -9,3 +9,4 @@ function countOddNumbersInAnInterval(low, high) {
   return x;
   // console.log(countOddNumbersInAnInterval(3,7))
 }
+console.log('smile');
