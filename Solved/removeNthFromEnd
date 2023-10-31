@@ -1,0 +1,18 @@
+// Remove Nth Node From End of List
+// https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+
+var removeNthFromEnd = function(head, n) {
+  let currentNode = head;
+  let prevToRemove = head;
+  for(let i = 0; i < n; i += 1) {
+    currentNode = currentNode.next;
+  }
+  if(!currentNode) return head.next; 
+  while(currentNode.next) {
+    prevToRemove = prevToRemove.next;
+    currentNode = currentNode.next;
+  }
+  prevToRemove.next = prevToRemove.next.next;
+  return head;
+};
+console.log('smile');
