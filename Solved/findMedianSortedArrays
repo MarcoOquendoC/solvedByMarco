@@ -1,0 +1,28 @@
+/**
+ * @param {number[]} nums1
+ * @param {number[]} nums2
+ * @return {number}
+ */
+var findMedianSortedArrays = function(nums1, nums2) {
+    let m = nums1.length;
+    let n = nums2.length;
+    let x = [];
+    for(let i = 0; i < m + n; i++) {
+        if((nums1[0]||nums1[0]===0) && (nums2[0]||nums2[0]===0) && nums1[0]<nums2[0]) {
+            x.push(nums1.shift());
+        } else if((nums1[0]||nums1[0]===0) && (nums2[0]||nums2[0]===0) && nums1[0] > nums2[0]) {
+            x.push(nums2.shift());
+        } else if(nums1[0] || nums1[0]===0) {
+            x.push(nums1.shift());
+        } else if(nums2[0] || nums2[0]===0) {
+            x.push(nums2.shift());
+        }
+    }
+    if(x.length === 0) return 0;
+    console.log(x);
+    let parity = x.length % 2 === 0;
+    let a = parity ? (x.length - 2) / 2 : (x.length - 1) / 2;
+    let b = a + 1;
+    let median = parity ? (x[a] + x[b]) / 2 : x[a];
+    return median;
+};
