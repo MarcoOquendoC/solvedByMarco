@@ -12,4 +12,4 @@ function cutTheSticks(arr) {
   if (arr.length != 0) result.push(arr.length);
   return result;
 }
-// para revisar
+console.log('smile');
