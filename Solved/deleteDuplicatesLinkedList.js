@@ -9,3 +9,4 @@ const deleteDuplicates = function (head) {
   }
   return head;
 };
+console.log('smile');
