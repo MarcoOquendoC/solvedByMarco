@@ -30,3 +30,4 @@ function gemstones(arr) {
   return accum;
   // console.log(gemstones(["abcdef","abcdef","abcfde","abcfde","afbcde"]))
 }
+console.log('smile');
