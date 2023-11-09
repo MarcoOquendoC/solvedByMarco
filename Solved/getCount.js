@@ -9,3 +9,4 @@ function getCount(objects) {
   return x;
   // getCount( {x:12,y:12} )
 }
+console.log('smile');
