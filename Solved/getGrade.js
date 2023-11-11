@@ -11,3 +11,4 @@ function getGrade(score) {
   return grade;
   // getGrade(26)
 }
+console.log('smile');
