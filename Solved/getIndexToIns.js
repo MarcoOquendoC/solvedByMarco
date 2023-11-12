@@ -33,3 +33,4 @@ function getIndexToIns(arr, num) {
   return output;
   //console.log(getIndexToIns([40, 60], 50))
 }
+console.log('smile');
