@@ -8,3 +8,4 @@ function getSecondLargest(nums) {
   }
   return second;
 }
+console.log('smile');
