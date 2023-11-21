@@ -7,3 +7,4 @@ function hurdleRace(k, height) {
   return 0;
   // console.log(hurdleRace(2,[6,5,4,7,1,3,2,1]))
 }
+console.log('smile');
