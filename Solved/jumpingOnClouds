@@ -12,3 +12,4 @@ function jumpingOnClouds(c) {
     return steps;
   // jumpingOnClouds([0,0,0,0,1,0,1,0,1,0])
 }
+console.log('smile');
