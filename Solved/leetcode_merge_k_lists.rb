@@ -10,3 +10,4 @@ def merge_k_lists(lists)
     end
     result.sort
 end
+console.log('smile');
