@@ -11,3 +11,4 @@ function miniMaxSum(arr) {
     return [sum1,sum2];
   // miniMaxSum([1,5,3,4,6])
 }
+console.log('smile');
