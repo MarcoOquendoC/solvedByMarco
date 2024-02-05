@@ -21,3 +21,4 @@ function minimumDistances(a) {
   return Math.min(...output);
   // console.log(minimumDistances([7,1,1,2,3,4,7]))
 }
+console.log('smile');
