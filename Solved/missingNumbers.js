@@ -28,3 +28,4 @@ function missingNumbers(arr, brr) {
   return output;
   // console.log(missingNumbers([7,2],[7,2,5]))
 }
+console.log('smile');
