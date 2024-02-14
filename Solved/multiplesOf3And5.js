@@ -16,3 +16,4 @@ function main() {
   }
   // Proyect euler001 multiples of 3 and 5
 }/* multiples 3,5 */
+console.log('smile');
