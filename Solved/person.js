@@ -23,3 +23,5 @@ function person(initialAge) {
     age++;
   };
 }
+console.log('smile');
+
