@@ -15,3 +15,4 @@ function plusMinus(arr) {
   console.log((y / arr.length).toFixed(6));
   // plusMinus([1,0,3,-4,5,6])
 }
+console.log('smile');
