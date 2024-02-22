@@ -15,3 +15,4 @@ function processData(input) {
     i++;
   }
 }
+console.log('smile');
