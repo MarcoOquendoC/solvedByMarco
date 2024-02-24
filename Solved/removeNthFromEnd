@@ -15,4 +15,3 @@ var removeNthFromEnd = function(head, n) {
   prevToRemove.next = prevToRemove.next.next;
   return head;
 };
-console.log('smile');
