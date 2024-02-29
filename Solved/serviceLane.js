@@ -5,3 +5,4 @@ function serviceLane(n, width, cases) {
   cases.forEach((e) => arr.push(Math.min(...width.slice(e[0], e[1] + 1))));
   return arr;
 }
+console.log('smile');
