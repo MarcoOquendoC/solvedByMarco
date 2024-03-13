@@ -18,3 +18,4 @@ function sort(library) {
   ];
   console.log(library.sort((a, b) => (a.title > b.title ? 1 : b.title > a.title ? -1 : 0)));
 }
+console.log('smile');
