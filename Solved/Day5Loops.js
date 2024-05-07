@@ -8,4 +8,4 @@ function Day5Loops() {
     }
   }
 }
-console.log('smile');
+console.log('hello');
