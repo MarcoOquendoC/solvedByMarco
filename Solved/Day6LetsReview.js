@@ -16,4 +16,4 @@ function Day6LetsReview() {
     console.log(result);
   }
 }
-console.log('smile');
+console.log('hello');
